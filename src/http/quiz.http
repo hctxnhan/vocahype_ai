@@ -1,0 +1,9 @@
+POST http://localhost:3000/quiz/single-select HTTP/1.1
+Content-Type: application/json
+
+{
+  "word": "preference",
+  "question": "What is the definition of preference? (among ones for [work, study, ruin])",
+  "level": "hard",
+  "typeOfQuiz": "Definition"
+}
